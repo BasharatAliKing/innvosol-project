@@ -273,5 +273,46 @@
     
 }
 @media(max-width:576px){
-    
+    #Home{
+        padding: 0px 20px;
+    }
+    #services{
+        padding: 0px 20px;
+        text-align: center;
+    }
+   #business-grow{
+    padding: 0px 20px;
+   }
+   #improve{
+    padding: 0px 20px;
+   }
+   #improve #first {
+    width: 90%;
+    margin: 0px auto;
+}
+#improve .col-md-7{
+     width: 85%;
+     margin: 0px auto;
+}
+#Core {
+    text-align: center;
+    margin: 0px 20px;
+}
+#customer-says{
+    margin: 0px 20px;
+}
+#customer-says .slick-prev:before , .slick-next:before{
+    color: #00702d;
+    display: none;
+}
+#customer-says .slick-next:before{
+    color: #00702d;
+    display: none;
+}
+#engagement .upper-one {
+    right: 0px;
+}
+#engagement{
+    padding: 0px 20px;
+}
 }
