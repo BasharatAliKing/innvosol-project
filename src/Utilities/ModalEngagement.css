@@ -1,0 +1,40 @@
+#engagement .media .icon-modal{
+    color: #11526e;
+    background-color: antiquewhite;
+   font-size: 35px;
+   background-color: #11526e00;
+   margin-right: 20px;
+}
+#engagement #one{
+    background-color: #b5d2ff;
+    padding: 20px;  
+    margin-top: 10px; 
+}
+#engagement #two{
+    background-color: #ffeabf;
+    padding: 20px; 
+    margin-top: 10px; 
+}
+#engagement #three{
+    background-color: #ecffdd;
+    padding: 20px;   
+    margin-top: 10px;
+}
+
+#engagement .media {
+    border: none;
+    margin: 0px;
+    max-height: 110px;
+    padding: 0px;
+    background-color: #11526e00;
+}
+#engagement .media p{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+@media(max-width:992px){
+    #engagement .second{
+        margin-top: 50px;
+    }
+}

@@ -1,0 +1,13 @@
+.btnone{
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #00983d;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: #fff;
+}
+.btnone:hover{
+    background-color: #174153;
+    transition: .7s;
+}

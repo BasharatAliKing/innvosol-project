@@ -1,0 +1,90 @@
+#footer{
+    color: #ccc;
+    background: #004254; 
+   text-align: start;
+   padding: 40px 0px;
+}
+#footer .container{
+    background-image: url('/public/bg-hero.png')no-repeat center center/cover;
+    width: 100%;
+   padding: 0px;
+
+}
+#footer #first{
+    background-color: #11526e;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    height: 280px;
+}
+#footer p{
+    color: #ccc;
+}
+#footer .hr{
+    background-color: #ccc;
+}
+#footer .col-md-3{
+    margin-top: 70px;
+    color:#ccc;
+}
+#footer h2{
+    color: white;
+    font-size: 22px;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+#footer .logo ,i{
+    font-size: 20px;
+    color: #00bd4b;
+    margin-right: 10px;
+}
+#footer ul li{
+    padding:5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+#footer ul li:hover{
+    color: #00bd4b;
+    transition: .7s;
+}
+#footer #findus ul li{
+    margin-top: 10px;
+    font-size: 15px;
+}
+#footer #findus ul li i{
+    font-size: 25px;
+}
+#footer form{
+    margin-top: 20px;
+    background-color: #004254;
+}
+#footer .mail{
+    display: flex;
+}
+#footer .col-10,.col-2{
+    padding: 3px;
+}
+#footer .mail .btn{
+    border: none;
+}
+#below{
+    background-color: #11526e;
+    color: #ccc;
+    text-align: start;
+    padding: 20px;
+   
+}
+#below .container{
+    padding: 0px;
+}
+@media(max-width:576px){
+    #footer .mail{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    #footer #first{
+        width: 90%;
+    }
+}

@@ -1,0 +1,13 @@
+.btntwo{
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #174153;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: #fff;
+}
+.btntwo:hover{
+    background-color: #00983d;
+    transition: .7s;
+}

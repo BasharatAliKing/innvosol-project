@@ -1,0 +1,25 @@
+#box{
+    background-color: #fff;
+    border: 2px solid #b2acac;
+    padding: 30px 20px;
+    border-radius: 20px;
+    margin-top: 0px;
+    height: 220px;
+}
+#box:hover{
+    border-color:#00702d;
+    transition: .7s;
+}
+#box h4{
+    color: #11526e;
+    font-size: 22px;
+    font-weight: 600;
+}
+#box p{
+    width: 100%;
+    text-align: start;
+    color: #11526e;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 29px;
+}
