@@ -21,10 +21,28 @@
     position: absolute;
     left: 150px;
     top: -20px;
-    background-color: #00983d;
+    background: linear-gradient(90deg,rgb(17, 134, 1) 0%,rgb(107, 206, 61) 44%,rgb(243, 247, 243) 91%);;
     height: 30px;
     width: 30px;
     border-radius: 50%;
+    animation: king1 4000ms infinite linear;
+}
+@keyframes king1{
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(90deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    75%{
+        transform:rotate(270deg);
+    }
+    100%{
+        transform:rotate(360deg);
+    }
 }
 .right-circle{
     content: " ";
@@ -45,6 +63,8 @@
     height: 50px;
     width: 50px;
     border-radius: 50%;
+    background: linear-gradient(90deg,rgb(17, 134, 1) 0%,rgb(107, 206, 61) 44%,rgb(243, 247, 243) 91%);;
+    animation: king1 4000ms infinite linear;
 }
 #discussing p{
     width: 80%;
