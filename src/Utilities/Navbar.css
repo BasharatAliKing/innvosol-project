@@ -1,14 +1,23 @@
-#header nav{
-    padding: 20px 100px;
-    transition: background-color .5s ease !important;
-    background: linear-gradient(90deg,rgba(249,251,250,1) 0%,rgba(226,245,239,1) 44%,rgba(235,248,242,1) 91%);
+#header nav {
+   
+   
+}
+.active{
+    background:  linear-gradient(90deg,rgba(249,251,250,1) 0%,rgba(226,245,239,1) 44%,rgba(235,248,242,1) 91%);;
     position: fixed;
+    /* padding: 20px 100px; */
+    transition: background-color .5s ease !important;
     top: 0px;
     left: 0px;
     width: 100%;
     z-index: 10;
     box-shadow: rgba(100,100,111,.2) 0px 7px 29px 0px
-   
+}
+.navbars{
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    background-color: #fff;
 }
 #header .container{
     padding: 0px;
