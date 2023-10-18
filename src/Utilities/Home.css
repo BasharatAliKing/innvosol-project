@@ -282,7 +282,7 @@
 @media(max-width:576px){
    
     #Home{
-        width: 102%;
+        width: 100%;
         padding: 0px 20px;
     }
     #Home h1 {
@@ -332,7 +332,7 @@
 }
 #engagement{
     text-align: center;
-    width: 102%;
+    width: 100%;
     padding: 0px 20px;
 }
 #engagement .upper-one {
