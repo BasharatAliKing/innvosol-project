@@ -49,8 +49,8 @@
 #business-grow #pic{
     padding: 0px;
     position: relative;
-    border: 15px solid #f0fff7;
     border-radius: 20px;
+    box-shadow: 0px 0px 40px #93f8c0;
 }
 
 #business-grow .icon{
@@ -83,8 +83,9 @@
     z-index: 1;
 }
 #business-grow .upper-two{
+    width: 20%;
     position: absolute;
-    bottom: -20px;
+    bottom: -40px;
     right: 100px;
     background-color: white;
     box-shadow: 0px 0px 10px;
@@ -116,6 +117,7 @@
     border: 2px solid #b2acac;
     padding: 20px;
     border-radius: 20px;
+    border-bottom-right-radius: 100px;
 }
 #improve #first:hover{
     border-color:#00702d;
@@ -135,6 +137,7 @@
     text-align: center;
 }
 #Core .slider{
+    margin-top: 40px;
     position: relative;
     overflow: hidden;
 }
@@ -169,6 +172,7 @@
     text-align: start;
 }
 #customer-says .slick-prev:before , .slick-next:before{
+    display: none;
     color: #00702d;
 }
 #customer-says .slick-next:before{
@@ -180,7 +184,7 @@
 }
 #engagement .main{
     position: relative;
-    border: 15px solid #f0fff785;
+    box-shadow: 0px 0px 40px #62ffab85;
     border-radius: 30px;
       height: 500px;
 }

@@ -74,6 +74,9 @@
     padding: 20px;
    
 }
+#below .second{
+  text-align: right;
+}
 #below .container{
     padding: 0px;
 }

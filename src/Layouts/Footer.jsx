@@ -47,7 +47,13 @@ export default function Footer() {
       </div>
       <div id='below'>
     <div className="container">
-    <footer>Copyright © 2023 design. All rights reserved.</footer>
+           <div className="row">
+            <div className="col-sm-6 first">  <footer>Copyright © 2023 design. All rights reserved.</footer></div>
+            <div className="col-sm-6 second">  Terms & Conditions | Privacy Policy
+
+</div>
+           </div>
+
     </div></div>
 
     </>

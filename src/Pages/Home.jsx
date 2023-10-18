@@ -30,7 +30,7 @@ import Footer from '../Layouts/Footer';
 export default function Home() {
     var settings = {
         autoplay:true,
-        dots: false,
+        dots: true,
         infinite: true,
         speed: 500,
         slidesToShow: 3,
@@ -91,22 +91,22 @@ export default function Home() {
                <MainPara mainpara="We are committed to our vision of providing high-level service and value to clients through enhanced services that include diligence."/>
                 </div>
                 <div className="col-lg-4 col-md-6">
-                <ServiceCards img={<RiComputerLine size="30px"  />} title="Web Design & Development" para="We’ve reached significant milestones in providing the best web development services." />
+                <ServiceCards img={process.env.PUBLIC_URL+"./desktop.png"} title="Web Design & Development" para="We’ve reached significant milestones in providing the best web development services." />
               </div>
               <div className="col-lg-4 col-md-6">
-                <ServiceCards img={<MdPhoneAndroid size="30px" />} title="Mobile App Development" para="Need a mobile app developed? We develop mobile apps for IOS and Android Operating System." />
+                <ServiceCards img={process.env.PUBLIC_URL+"./smartphone.png"} title="Mobile App Development" para="Need a mobile app developed? We develop mobile apps for IOS and Android Operating System." />
               </div>
               <div className="col-lg-4 col-md-6">
-                <ServiceCards img={<AiFillGift size="30px" />} title="E-Commerce" para="We are thought leaders in creating rewarding through responsive web design and emerging UX technologies." />
+                <ServiceCards img={process.env.PUBLIC_URL+"./giftbox.png"} title="E-Commerce" para="We are thought leaders in creating rewarding through responsive web design and emerging UX technologies." />
               </div>
               <div className="col-lg-4 col-md-6">
-                <ServiceCards img={<FaPaintBrush size="30px" />} title="Brand Strategy & UI/UX" para="We have skilled graphic designers who can portray and develop your ideas perfectly." />
+                <ServiceCards img={process.env.PUBLIC_URL+"./paint-brush.png"} title="Brand Strategy & UI/UX" para="We have skilled graphic designers who can portray and develop your ideas perfectly." />
               </div>
               <div className="col-lg-4 col-md-6">
-                <ServiceCards img={<HiUserGroup size="30px"  />} title="Staff Augmentation" para="Hiring a skilled developer at a reasonable price takes months, not weeks." />
+                <ServiceCards img={process.env.PUBLIC_URL+"./man.png"} title="Staff Augmentation" para="Hiring a skilled developer at a reasonable price takes months, not weeks." />
               </div>
               <div className="col-lg-4 col-md-6">
-                <ServiceCards img={<FaCloudDownloadAlt size="30px"  />}title="Cloud Application Development" para="To build cloud apps, use affordable and popular cloud tools that offer flexibility, security, and reliability." />
+                <ServiceCards img={process.env.PUBLIC_URL+"./cloud-computing.png"}title="Cloud Application Development" para="To build cloud apps, use affordable and popular cloud tools that offer flexibility, security, and reliability." />
               </div>
             </div>
         </div>
@@ -272,6 +272,9 @@ export default function Home() {
             <div className="col-md-12">
               <HomeSlider cls="shadow c" title="Hatim Q" subtitle="United Kingdom(UK)" para="  Great job on the landing page, followed instructions accurately with great output." />
             </div>
+            {/* <div className="col-md-12 ">
+              <HomeSlider cls="shadow a" title="Syed Husnain R" subtitle="United States(UK)" para=" The right resource is critical to success. Asad is fast, responsive, and his technical skills are on point. His overall professionalism is first class. Highly recommended." />
+            </div> */}
         </Slider>
                     </div>
                 </div>

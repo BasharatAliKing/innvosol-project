@@ -1,6 +1,28 @@
 #Form-alone{
     margin-top: 0px;
 }
+PhoneInput {
+    margin-top: 20px;
+}
+.react-tel-input{
+   margin-top: 20px;
+}
+.react-tel-input .form-control {
+    position: relative;
+    font-size: 14px;
+    letter-spacing: .01rem;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding-left: 48px;
+    margin-left: 0;
+    background: #FFFFFF;
+    border: 1px solid #CACACA;
+    border-radius: 5px;
+    line-height: 25px;
+    height: 35px;
+    width: 440px;
+    outline: none;
+}
 form h2{
     font-weight: 600;
 }

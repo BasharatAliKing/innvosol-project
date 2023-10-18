@@ -5,6 +5,7 @@
     border-radius: 20px;
     margin-top: 0px;
     height: 220px;
+    border-bottom-right-radius: 100px;
 }
 #box:hover{
     border-color:#00702d;

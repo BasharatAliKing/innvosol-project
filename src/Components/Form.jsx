@@ -1,9 +1,12 @@
-import React from 'react';
+import React,{useState} from 'react';
 import "../Utilities/Form.css";
-
+import PhoneInput from 'react-phone-input-2'
+import 'react-phone-input-2/lib/style.css'
 export default function Form(props) {
+  const [phone, setphone] = useState()
   return (
     <>
+
        <div id="Form-alone">
         <div className="container">
             <div className="row">
@@ -15,7 +18,7 @@ export default function Form(props) {
               <div className="col-md-6"><input type="text" className='form-control lname' placeholder='Last Name' required/></div>
             </div>
             <input type="email" placeholder='Email Address' className='form-control mt-4' required/>
-            <input type="phone" placeholder='Mobile Number' max="12" className='form-control mt-4' required/>
+            <PhoneInput  placeholder="Enter phone number" country={'us'} inputProps={{required:true}} required/>
             <textarea className='form-control mt-4' name="" id="" cols="20" placeholder='Tell us more about your projects?' rows="5"></textarea>
             <button className='btn form-control mt-4'>Submit Form</button>
           </form>
