@@ -31,5 +31,7 @@
 }
 
 @media(max-width:576px){
-   
+   .media{
+    height:200px;
+   }
 }

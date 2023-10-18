@@ -90,4 +90,11 @@
     #footer #first{
         width: 90%;
     }
+    #footer{
+        padding: 0px 20px;
+        width: 95%;
+    }
+    #below{
+        width: 90%;
+    }
 }

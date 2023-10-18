@@ -38,3 +38,8 @@
         margin-top: 50px;
     }
 }
+@media(max-width:576px){
+    #engagement .media {
+        max-height: 160px;
+    }
+}

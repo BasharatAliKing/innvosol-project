@@ -309,6 +309,9 @@
      width: 85%;
      margin: 0px auto;
 }
+#improve .col-md-7 {
+    width: 80%;
+}
 #Core {
     text-align: center;
     margin: 0px 20px;
@@ -328,22 +331,36 @@
     right: 0px;
 }
 #engagement{
+    text-align: center;
+    width: 102%;
     padding: 0px 20px;
+}
+#engagement .upper-one {
+    width: 35%;
+    right: 0px;
+}
+#engagement .upper-two {
+   width: 25%;
+}
+#engagement .second {
+    padding: 0px;
+    padding-left: 0px;
 }
 #business-grow #pic {
     position: relative;
-    width: 90%;
+    width: 100%;
+}
+#business-grow .upper-one {
+    display: none;
+}
+#business-grow .upper-two {
+    width: 25%;
+    bottom: -30px;
+    right: 60px;
 }
 #quick-support{
     padding: 0px 20px;
 }
-#hire{
-    width: 90%;
-}
-#footer{
-    width: 90%;
-}
-#below{
-    width: 90%;
-}
+
+
 }

@@ -90,6 +90,10 @@
     }
 }
 @media(max-width:576px){
+    .right-circle {
+        right: -118px;
+        top: -170px;
+    }
     #discussing .container{
         height: 500px;
     }
