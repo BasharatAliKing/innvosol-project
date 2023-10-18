@@ -97,4 +97,10 @@
     #below{
         width: 90%;
     }
+    form{
+        form {
+            width: 97%;
+            margin-left: 10px;
+        }
+    }
 }

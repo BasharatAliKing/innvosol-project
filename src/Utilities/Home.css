@@ -343,10 +343,10 @@
    width: 25%;
 }
 #engagement .second {
-    padding: 0px;
-    padding-left: 0px;
+    padding: 10px;
 }
 #business-grow #pic {
+    margin-left: 10px;
     position: relative;
     width: 100%;
 }
@@ -360,6 +360,9 @@
 }
 #quick-support{
     padding: 0px 20px;
+}
+#quick-support #Form{
+    margin-left: 10px;
 }
 
 

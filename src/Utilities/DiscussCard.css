@@ -92,10 +92,11 @@
 @media(max-width:576px){
     .right-circle {
         right: -118px;
-        top: -170px;
+        top: -210px;
     }
     #discussing .container{
         height: 500px;
+        padding: 0px 10px;
     }
     #discussing p{
         width: 99%;
