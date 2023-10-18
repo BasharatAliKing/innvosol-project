@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 #Home{
     background: linear-gradient(90deg,rgba(249,251,250,1) 0%,rgba(226,245,239,1) 44%,rgba(235,248,242,1) 91%);
 }
@@ -277,7 +280,9 @@
     
 }
 @media(max-width:576px){
+   
     #Home{
+        width: 102%;
         padding: 0px 20px;
     }
     #Home h1 {
@@ -331,5 +336,14 @@
 }
 #quick-support{
     padding: 0px 20px;
+}
+#hire{
+    width: 90%;
+}
+#footer{
+    width: 90%;
+}
+#below{
+    width: 90%;
 }
 }
