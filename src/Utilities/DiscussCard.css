@@ -49,10 +49,11 @@
     position: absolute;
     right: -50px;
     top: -130px;
-    background-color: #00983d;
+    background: linear-gradient(90deg,rgb(43, 160, 22) 0%,rgb(107, 206, 61) 44%,rgb(243, 247, 243) 91%);;
     height: 200px;
     width: 200px;
     border-radius: 50%;
+    animation: king1 6000ms infinite linear;
 }
 .bottom-circle{
     content: " ";
