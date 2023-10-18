@@ -90,6 +90,9 @@
     }
 }
 @media(max-width:576px){
+    #discussing .container{
+        height: 500px;
+    }
     #discussing p{
         width: 99%;
     }

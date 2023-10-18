@@ -24,3 +24,11 @@
     font-weight: 300;
     line-height: 29px;
 }
+
+@media(max-width:576px){
+    #box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

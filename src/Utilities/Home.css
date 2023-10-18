@@ -280,6 +280,12 @@
     #Home{
         padding: 0px 20px;
     }
+    #Home h1 {
+        font-size: 35px;
+    }
+    #Home .buttons {
+        flex-direction: column;
+    }
     #services{
         padding: 0px 20px;
         text-align: center;
@@ -317,6 +323,13 @@
     right: 0px;
 }
 #engagement{
+    padding: 0px 20px;
+}
+#business-grow #pic {
+    position: relative;
+    width: 90%;
+}
+#quick-support{
     padding: 0px 20px;
 }
 }

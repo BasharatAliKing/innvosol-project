@@ -44,3 +44,8 @@ form .btn:hover{
         margin-top: 1.5rem;
     }
 }
+@media(max-width:576px){
+     form{
+        width: 90%;
+    }
+}
