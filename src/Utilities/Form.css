@@ -48,7 +48,11 @@ form .btn:hover{
     #Form{
         padding: 0px 20px;
     }
+    #Form-alone .container{
+        padding: 0px;
+    }
      form{
-        width: 100%;
+        margin-left: 10px;
+        width: 96%;
     }
 }
