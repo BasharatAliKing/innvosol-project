@@ -348,7 +348,8 @@
 #business-grow #pic {
     margin-left: 10px;
     position: relative;
-    width: 100%;
+    width: 90%;
+    margin: 50px auto;
 }
 #business-grow .upper-one {
     display: none;
