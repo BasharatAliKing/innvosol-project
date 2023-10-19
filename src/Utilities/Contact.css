@@ -1,0 +1,21 @@
+#Contact .text-contact{
+    display: flex;
+    flex-direction: column;
+    gap: 20;
+    height: 40vh;
+    justify-content: center;
+    text-align: center;
+    color: var(--primaryblue);
+}
+#Contact .text-contact p{
+  width: 70%;
+  line-height: 25px;
+  margin: 0px auto;
+}
+#contact-form #Form-alone .container{
+    padding: 0px;
+}
+#contact-job{
+    text-align: center;
+    background-color: #84daa66e;
+}

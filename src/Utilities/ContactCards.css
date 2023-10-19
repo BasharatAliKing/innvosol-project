@@ -1,0 +1,43 @@
+.card{
+    padding: 40px 20px;
+    height: 350px;
+    margin-top: 20px;
+    text-align: center;
+}
+.contact-icon{
+    font-size: 40px;
+    color:var(--white);
+    background-color: var(--primarygreen);
+    margin: 0px auto;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+.card:hover{
+    transition: .7s;
+    .contact-icon{
+        background-color: var(--primaryblue);
+        transition: .7s;
+    }
+    box-shadow: 0px 0px 15px #cecece;
+    
+}
+.card h2{
+    font-weight: 700;
+}
+.card p{
+    font-size: 19px;
+}
+
+.card .btn{
+    width: 100%;
+    font-weight: 700;
+    letter-spacing: 1px;
+    background-color:var(--primaryblue);
+}
+.card .btn:hover{
+    background-color: var(--primarygreen);
+    transition: .7s;
+    border: none;
+   
+}
