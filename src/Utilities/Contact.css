@@ -43,6 +43,13 @@
   #contact-form .col-lg-6{
     padding: 0px;
   }
+  #contact-form .row{
+    padding: 0px;
+    margin: 0px;
+  }
+  #contact-job .row{
+    margin: 0px;
+  }
  #contact-form .dosre{
   width: 90%;
   margin: 0px auto;
