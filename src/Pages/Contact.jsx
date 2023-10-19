@@ -46,7 +46,7 @@ export default function Contact() {
                 <div className="col-lg-6 mt-3">
                 <img className='img' src={process.env.PUBLIC_URL+"./contact-us.webp"} alt="My-Pic" />
                 </div>
-                <div className="col-lg-6">
+                <div className="col-lg-6 dosre">
                     <Form heading="Let's talk about your project and make your ideas come true!" para="Fill out the info below and we’ll contact you to talk about your project needs."/>
                 </div>
 
@@ -55,7 +55,8 @@ export default function Contact() {
       </section>
       {/* contact looking for job section */}
       <section id="contact-job">
-        <div className="container">
+       <div className="bgone">
+       <div className="container">
             <div className="row">
                 <div className="col-12">
                     <MainHeading mainheading="Looking for Job"/>
@@ -63,6 +64,7 @@ export default function Contact() {
                 </div>
             </div>
         </div>
+       </div>
       </section>
       {/* Contact map section */}
       <section id="contact-map">

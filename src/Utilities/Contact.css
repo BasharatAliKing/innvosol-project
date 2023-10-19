@@ -17,7 +17,13 @@
 }
 #contact-job{
     text-align: center;
-    background-color: #84daa66e;
+   
+    background: url(/public/contact-looking-bg.jpg) no-repeat center center/cover;
+    z-index: -1;
+    background-color: #f2fff5;
+}
+#contact-job .bgone{
+  background-color: #f2fff5ef;
 }
 @media(max-width:768px){
     #Contact .text-contact p {
@@ -40,10 +46,10 @@
   #contact-form .col-lg-6{
     padding: 0px;
   }
-  #contact-form #Form-alone {
-    margin-left: 30px;
-    width: 89%;
-}
+ #contact-form .dosre{
+  width: 90%;
+  margin: 0px auto;
+ }
  #contact-form #Form-alone .container .row{
    margin: 0px;
  }
