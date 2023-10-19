@@ -112,10 +112,11 @@ font-family: 'Roboto', sans-serif; */
         font-size: 50px;
     }
     #fresh-hiring .col-lg-6{
-        padding: 0px;
+        padding: 0px 10px;
+
     }
     #fresh-hiring .para {
-        margin-top: -10px;
+        margin-top: 0px;
         font-size: 25px;
     }
     #fresh-hiring .img{
