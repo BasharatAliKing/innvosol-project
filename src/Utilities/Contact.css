@@ -19,3 +19,19 @@
     text-align: center;
     background-color: #84daa66e;
 }
+@media(max-width:768px){
+    #Contact .text-contact p {
+        width: 100%;
+    }
+}
+@media(max-width:576px){
+    #Contact{
+        padding: 0px 20px;
+    }
+  #contact-form .img{
+    width: 90%;
+  }
+  #contact-form .col-lg-6{
+    padding: 0px;
+  }
+}

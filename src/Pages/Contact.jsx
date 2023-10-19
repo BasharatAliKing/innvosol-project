@@ -44,7 +44,7 @@ export default function Contact() {
         <div className="container">
             <div className="row">
                 <div className="col-lg-6 mt-3">
-                <img src={process.env.PUBLIC_URL+"./contact-us.webp"} alt="My-Pic" />
+                <img className='img' src={process.env.PUBLIC_URL+"./contact-us.webp"} alt="My-Pic" />
                 </div>
                 <div className="col-lg-6">
                     <Form heading="Let's talk about your project and make your ideas come true!" para="Fill out the info below and we’ll contact you to talk about your project needs."/>
