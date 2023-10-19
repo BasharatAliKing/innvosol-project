@@ -17,8 +17,8 @@ export default function App() {
         <Routes>
           <Route exact path='/' element={<Home/>} ></Route> 
           <Route exact path='/Home' element={<Home/>} ></Route> 
-
           <Route exact path='/Services' element={<Services/>} ></Route> 
+          <Route exact path='/Carrier' element={<Carrier/>} ></Route> 
         </Routes>
      </Router>
     </>
