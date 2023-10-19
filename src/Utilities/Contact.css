@@ -17,13 +17,10 @@
 }
 #contact-job{
     text-align: center;
-   
-    background: url(/public/contact-looking-bg.jpg) no-repeat center center/cover;
-    z-index: -1;
     background-color: #f2fff5;
 }
 #contact-job .bgone{
-  background-color: #f2fff5ef;
+   background: url(/public//bg-hero.png);
 }
 @media(max-width:768px){
     #Contact .text-contact p {
