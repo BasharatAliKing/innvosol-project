@@ -86,6 +86,9 @@ font-family: 'Roboto', sans-serif; */
 }
 @media(max-width:576px){
     #Carrier{
+        height: 100vh;
+    }
+    #Carrier{
         padding: 0px 20px;
     }
     #Carrier .buttons{
