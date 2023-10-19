@@ -85,18 +85,41 @@ font-family: 'Roboto', sans-serif; */
     }
 }
 @media(max-width:576px){
-    #Carrier{
-        height: 100vh;
+    #header{
+        width: 100%;
     }
+    #Carrier{
+        width: 100%;
+        height: 150vh;
+    }
+    
     #Carrier{
         padding: 0px 20px;
     }
     #Carrier .buttons{
         flex-direction: column;
     }
+    #fresh-hiring{
+        width: 100%;
+        padding: 0px 20px;
+    }
+    #fresh-hiring .second {
+        padding-left: 0px;
+        padding: 20px;
+        
+    }
+    #fresh-hiring h2 {
+        font-size: 50px;
+    }
+    #fresh-hiring .col-lg-6{
+        padding: 0px;
+    }
+    #fresh-hiring .para {
+        margin-top: -10px;
+        font-size: 25px;
+    }
     #fresh-hiring .img{
-       width: 99%;
-       margin: 0px 10px;
+       width: 100%;
     }
 
 }
