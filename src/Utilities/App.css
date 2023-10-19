@@ -3,6 +3,12 @@
 font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif;
 }
+:root{
+    --lightgreen:#00db2d;
+    --secondarygreen:#028329;
+    --primarygreen:#0ab950;
+    --primaryblue:#11526e;
+}
 .container{
     padding: 80px 0px;
 }

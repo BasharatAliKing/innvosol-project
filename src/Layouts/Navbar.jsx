@@ -17,7 +17,7 @@ export default function Navbar() {
     <>
     <div id='header'className={navbar ? "active" :" navbars"} >
       <div className="container">
-      <nav class="navbar navbar-expand-lg ">
+      <nav class="navbar navbar-expand-lg navbar-light">
   <img class="navbar-brand" src={process.env.PUBLIC_URL+"./main-logo.svg"} alt="My-Pic"  />
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
