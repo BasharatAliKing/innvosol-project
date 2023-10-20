@@ -5,6 +5,7 @@ h1{
 
 @media(max-width:576px){
     h1{
-        font-size: 28px;
+        font-size: 25px;
+        color: var(--primaryblue);
     }
 }
