@@ -27,6 +27,6 @@ font-family: 'Roboto', sans-serif;
 
 @media(max-width:576px){
     .container{
-        padding: 40px 0px;
+        padding: 20px 0px;
     }
 }
