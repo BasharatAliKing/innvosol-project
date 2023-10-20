@@ -402,6 +402,9 @@
 #quick-support{
     padding: 0px 20px;
 }
+#quick-support h3{
+    font-size: 22px;
+}
 #quick-support ul li{
     font-size: 16px;
 }
