@@ -281,6 +281,9 @@
 }
 
 @media(max-width:576px){
+    #customer-says .slick-next {
+        right: 0px;
+    }
     #Home{
         width: 100%;
         padding: 0px 20px;
