@@ -4,13 +4,7 @@ import { Link } from 'react-router-dom'
 export default function Navbar() {
   const [navbar, setNavbar]=useState(false);
   const [show, setshow]=useState(false);
-  const mainbtn=()=>{
-    if(show==true){
-      setshow(false);
-    }else{
-      setshow(true);
-    }
-  }
+
   const btnClick=()=>{
     console.log("BtnClick...");
     if(show==true){
@@ -36,12 +30,13 @@ export default function Navbar() {
       <div className="container">
       <nav class="navbar navbar-expand-lg navbar-light">
   <img class="navbar-brand" src={process.env.PUBLIC_URL+"./main-logo.svg"} alt="My-Pic"  />
-  <button onClick={mainbtn} class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <button  class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-   {
-    show &&( <ul class="navbar-nav ">
+   {/* {
+    show &&( */}
+       <ul class="navbar-nav ">
     <li class="nav-item dropdown">
       <a class="nav-link " to="#"  data-toggle="dropdown" aria-expanded="false">
       WHAT'S WE OFFER <i className='fa fa-plus'></i>
@@ -75,8 +70,9 @@ export default function Navbar() {
     <li class="nav-item">
       <Link class="nav-link btn" onClick={btnClick} to="/">Get In Touch</Link>
     </li>
-  </ul>)
-   }
+  </ul>
+  {/* // )
+  //  } */}
   </div>
 </nav>
 </div>
