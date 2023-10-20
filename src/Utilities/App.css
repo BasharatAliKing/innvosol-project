@@ -24,3 +24,9 @@ font-family: 'Roboto', sans-serif;
     background-color: #174153;
     transition: .7s;
 }
+
+@media(max-width:576px){
+    .container{
+        padding: 40px 0px;
+    }
+}

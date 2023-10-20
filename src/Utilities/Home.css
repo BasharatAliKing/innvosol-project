@@ -281,6 +281,9 @@
 }
 
 @media(max-width:576px){
+    .container{
+        
+    }
     #customer-says .slick-next {
         right: 0px;
     }
