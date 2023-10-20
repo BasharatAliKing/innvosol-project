@@ -307,9 +307,27 @@
    #business-grow{
     padding: 0px 20px;
    }
+   #services .media p {
+    font-size: 15px;
+    line-height: 22px;
+}
+#business-grow ul li {
+    font-size: 16px;
+    color: var(--primaryblue);
+}
    #improve{
     padding: 0px 20px;
    }
+   #improve h1 {
+    width: 100%;
+}
+#improve p{
+    font-size: 16px;
+    line-height: 22px;
+}
+#improve ul li {
+    font-size: 16px;
+}
    #improve #first {
     width: 90%;
     margin: 0px auto;
@@ -321,6 +339,7 @@
 #improve .col-md-7 {
     width: 80%;
 }
+
 #Core {
     text-align: center;
     margin: 0px 20px;
@@ -378,6 +397,9 @@
 }
 #quick-support{
     padding: 0px 20px;
+}
+#quick-support ul li{
+    font-size: 16px;
 }
 #quick-support #Form{
     margin-left: 10px;

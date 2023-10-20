@@ -107,7 +107,9 @@ export default function Home() {
         </div>
        </section>
        {/* Discussed Card section */}
-       <DiscussCard title="Discussing a Project?" para="We’re happy to help you. Send us a message for a free online meeting with the top software development company in the USA, and we’ll make a customized plan for your project." btn="Let's Talk" />
+         <section id="home-discuss">
+         <DiscussCard title="Discussing a Project?" para="We’re happy to help you. Send us a message for a free online meeting with the top software development company in the USA, and we’ll make a customized plan for your project." btn="Let's Talk" />
+         </section>
         {/* business-grow section */}
         <section id="business-grow">
             <div className="container">
