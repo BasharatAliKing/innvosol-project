@@ -12,3 +12,8 @@
     background-color: #174153;
     transition: .7s;
 }
+@media(max-width:576px){
+    .btnone{
+        font-size: 16px;
+    }
+}

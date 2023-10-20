@@ -285,11 +285,17 @@
         right: 0px;
     }
     #Home{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         width: 100%;
         padding: 0px 20px;
+        height: 100vh;
     }
     #Home h1 {
-        font-size: 35px;
+        margin-top: 40px;
+        font-size: 30px;
     }
     #Home .buttons {
         flex-direction: column;

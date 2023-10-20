@@ -12,3 +12,8 @@
     background-color: #00983d;
     transition: .7s;
 }
+@media(max-width:576px){
+    .btntwo{
+        font-size: 16px;
+    }
+}
