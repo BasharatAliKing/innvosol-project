@@ -42,4 +42,7 @@
     #engagement .media {
         max-height: 140px;
     }
+    #engagement .media .icon-modal {
+        margin-right: 0px;
+    }
 }
