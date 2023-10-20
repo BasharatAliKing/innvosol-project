@@ -98,6 +98,9 @@
         height: 400px;
         padding: 0px 10px;
     }
+    #discussing{
+        height: 70vh;
+    }
     #discussing p{
         width: 99%;
     }
