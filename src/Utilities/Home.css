@@ -407,6 +407,7 @@
 }
 #quick-support .logo {
     font-size: 20px;
+    margin-top: -5px;
 }
 #quick-support ul li{
     font-size: 16px;

@@ -20,6 +20,7 @@ export default function App() {
           <Route exact path='/Services' element={<Services/>} ></Route> 
           <Route exact path='/Carrier' element={<Carrier/>} ></Route> 
           <Route exact path='/Contact-us' element={<Contact/>} ></Route> 
+          <Route exact path='/Process' element={<Process/>} ></Route> 
         </Routes>
      </Router>
     </>
