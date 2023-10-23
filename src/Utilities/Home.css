@@ -405,6 +405,9 @@
 #quick-support h3{
     font-size: 22px;
 }
+#quick-support .logo {
+    font-size: 20px;
+}
 #quick-support ul li{
     font-size: 16px;
 }

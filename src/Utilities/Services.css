@@ -68,13 +68,18 @@
 }
 @media(max-width:576px){
     #Services{
-        padding: 0px 20px;
+        padding: 60px 20px;
     }
     #conversation{
         padding: 0px 20px;
     }
     #services-tech{
         padding: 0px 20px;
+    }
+    #services-tech .slider .item {
+        font-size: 16px;
+        padding: 9px 20px;
+        height: 40px;
     }
     #services-tech .row {
         margin-right: 0px;

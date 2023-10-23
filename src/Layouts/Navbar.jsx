@@ -3,17 +3,16 @@ import "../Utilities/Navbar.css";
 import { Link } from 'react-router-dom'
 export default function Navbar() {
   const [navbar, setNavbar]=useState(false);
-  const [show, setshow]=useState(false);
-
-  const btnClick=()=>{
-    console.log("BtnClick...");
-    if(show==true){
-      setshow(false)
-    }else{
-      setshow(true);
-    }
-    
-  }
+  // const [show, setshow]=useState(false);
+ 
+  // const btnClick=()=>{
+  //   console.log("menu btn clickedd...")
+  //   if(show==true){
+  //     setshow(false)
+  //   }else{
+  //  setshow(true);
+  //   }
+  // }
   const showButton=()=>{
     console.log("Scrolled...");
     if(window.scrollY>= 590){
@@ -34,8 +33,7 @@ export default function Navbar() {
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-   {/* {
-    show &&( */}
+
        <ul class="navbar-nav ">
     <li class="nav-item dropdown">
       <a class="nav-link " to="#"  data-toggle="dropdown" aria-expanded="false">
@@ -59,20 +57,20 @@ export default function Navbar() {
       </div>
     </li>
     <li class="nav-item ">
-      <Link class="nav-link" onClick={btnClick} to="/Services">SERVICES </Link>
+      <Link class="nav-link"  to="/Services">SERVICES </Link>
     </li>
     <li class="nav-item ">
-      <Link class="nav-link" onClick={btnClick} to="/Carrier">CARRIER </Link>
+      <Link class="nav-link"  to="/Carrier">CARRIER </Link>
     </li>
     <li class="nav-item">
-      <Link class="nav-link" onClick={btnClick} to="/Contact-Us">CONTACT US</Link>
+      <Link class="nav-link"  to="/Contact-Us">CONTACT US</Link>
     </li>
     <li class="nav-item">
-      <Link class="nav-link btn" onClick={btnClick} to="/">Get In Touch</Link>
+      <Link class="nav-link btn"  to="/">Get In Touch</Link>
     </li>
   </ul>
-  {/* // )
-  //  } */}
+  
+
   </div>
 </nav>
 </div>

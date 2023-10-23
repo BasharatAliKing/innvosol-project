@@ -29,22 +29,18 @@
 }
 @media(max-width:576px){
     #Contact{
-        padding: 0px 20px;
+        padding:40px 20px;
     }
     #Contact .row{
       margin: 0px;
     }
-    #Contact .col-md-6{
-        padding: 0px;
+    .dosre #Form-alone .mt-3 .col-md-6{
+      padding: 0px;
     }
   #contact-form .img{
     width: 90%;
   }
-  #contact-form .col-lg-6{
-    padding: 0px;
-  }
   #contact-form .row{
-    padding: 0px;
     margin: 0px;
   }
   #contact-job .row{
@@ -53,7 +49,5 @@
  #contact-form .dosre{
   margin: 0px ;
  }
- #contact-form #Form-alone .container .row{
-   margin: 0px;
- }
+ 
 }
