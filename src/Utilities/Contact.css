@@ -49,5 +49,8 @@
  #contact-form .dosre{
   margin: 0px ;
  }
+ #contact-form .dosre #Form-alone{
+  width: 98%;
+ }
  
 }
