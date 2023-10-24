@@ -61,18 +61,20 @@
 }
 
 #header nav .dropdown-menu{
-    background-color: #029d40bd;
+    background-color: #f2fff5;
+    
 }
 #header nav .dropdown-item{
+    border: none;
     padding:10px; 
     font-size: 12px;
-    font-weight: 700;
-    color: black;
+    font-weight: 600;
+    color: var(--paraColor);
     letter-spacing: 0px;
 }
-#headernav .dropdown-item:hover{
-    background-color: #00da57;
-    color: white;
+#header nav .dropdown-item:hover{
+    color: var(--primarygreen);
+    background-color: #f2fff5;
 }
 @media(max-width:768px){
     #header img {
