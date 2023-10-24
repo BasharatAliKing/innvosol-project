@@ -9,21 +9,31 @@
     height:170px;
 }
 .media:hover{
+    .main-img{
+        background-color: var(--secondarygreen);
+        transition: .7s;
+    }
     transition: .7s;
     background-color: #fff;
-    box-shadow: 0px 0px 5px rgb(212, 212, 212);
+    box-shadow: 0px 0px 5px rgb(167, 167, 167);
+    
 }
-.media .main-img img {
+.media .main-img  {
    
    background-color: #f5f9f6;
    border-radius: 50%;
    padding: 15px;
-   width: 70px;
-   height: 70px;
+   width: 80px;
+   height: 80px;
+}
+.media .main-img img{
+    width: 100%;
 }
 .media h5{
-    font-size: 16px;
-    font-weight: bold;
+    font-size: 18px;
+    color: #000;
+}
+.media p{
     color: #000;
 }
 .media .media-body{

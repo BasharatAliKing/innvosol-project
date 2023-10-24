@@ -1,9 +1,10 @@
 .btntwo{
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
     background-color: #174153;
     border: none;
-    padding: 10px 30px;
+    padding: 12px 30px;
     border-radius: 10px;
     color: #fff;
     margin-top: 10px;

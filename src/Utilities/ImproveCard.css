@@ -1,11 +1,14 @@
 #box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: #fff;
     border: 2px solid #b2acac;
     padding: 30px 20px;
     border-radius: 20px;
     margin-top: 0px;
     height: 220px;
-    border-bottom-right-radius: 100px;
+    /* border-bottom-right-radius: 100px; */
 }
 #box:hover{
     border-color:#00702d;

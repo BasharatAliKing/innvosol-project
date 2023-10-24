@@ -11,13 +11,14 @@
     left: 0px;
     width: 100%;
     z-index: 10;
-    box-shadow: rgba(100,100,111,.2) 0px 7px 29px 0px
+   
 }
 .navbars{
     position: fixed;
     width: 100%;
     z-index: 10;
     background-color: #fff;
+    box-shadow: rgba(100,100,111,.2) 0px 7px 29px 0px;
 }
 #header .container{
     padding: 0px;

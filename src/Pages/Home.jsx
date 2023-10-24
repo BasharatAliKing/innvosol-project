@@ -281,7 +281,7 @@ export default function Home() {
         <section id="engagement">
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 one">
             <img className='upper-one' src={process.env.PUBLIC_URL+"./main-logo.svg"} alt="My-Pic" width="22%" />
             <img className='main' src={process.env.PUBLIC_URL+"./engagement.webp"} alt="My-Pic" width="100%" />
             <img className='upper-two' src={process.env.PUBLIC_URL+"./wifi-signal.svg"} alt="my-pic" width="15%" />

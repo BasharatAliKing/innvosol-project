@@ -1,0 +1,29 @@
+#Process{
+    background-color: #0b0c22;
+    color: #fff;
+    width: 100%;
+}
+#Process .one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 90vh;
+}
+#Process p{
+  color: #fff;
+}
+#Process button{
+    width: 33%;
+}
+.idea-below{
+    font-size: 100px;
+    position: absolute;
+    z-index: -1;
+    color: #00000057;
+    margin-left: -40px;
+    margin-top: -30px;
+    font-weight: 900;
+}
+#process-idea .text{
+    padding: 0px 40px;
+}
