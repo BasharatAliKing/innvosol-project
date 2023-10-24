@@ -1,6 +1,6 @@
 
 .media{
-    margin-top: 40px;
+    margin-top: 30px;
     text-align: start;
     padding: 20px;
     background-color: #fff;
@@ -32,10 +32,12 @@
 }
 .media h5{
     font-size: 18px;
+    font-weight: 600;
     color: #000;
 }
 .media p{
-    color: #000;
+    color: var(--primaryblue);  
+    font-weight: 400;
 }
 .media .media-body{
     margin-left: 10px;

@@ -1,23 +1,26 @@
 #slider-below{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
     width: 100%;
     height: 320px;
     padding: 20px;
     margin: 40px 10px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 .slick-slide{
     width: 100%;
 }
 #slider-below h2{
     font-weight: 600;
-    font-size: 25px;
+    font-size: 24px;
 }
 #slider-below span{
     font-size: 18px;
+    font-weight: 400;
     color: #028329;
 }
 #slider-below p{
-    margin-top: 10px;
     font-size: 16px;
     letter-spacing:1px;
     line-height: 25px;

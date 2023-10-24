@@ -1,9 +1,25 @@
+
 #engagement .media .icon-modal{
     color: #11526e;
     background-color: antiquewhite;
    font-size: 35px;
    background-color: #11526e00;
    margin-right: 20px;
+}
+.counts{
+    font-size: 40px;
+    width: 40px;
+    color: var(--primaryblue);
+    font-weight: 600;
+    text-align: center;
+}
+.arrow{
+    position: absolute;
+
+    width: 20%;
+    transform: rotate(90deg);
+    margin-left: -15px;
+    margin-top: 40px;
 }
 #engagement #one{
     background-color: #b5d2ff;
@@ -22,11 +38,14 @@
 }
 
 #engagement .media {
+    display: flex;
+    gap: 20px;
     border: none;
     margin: 0px;
-    max-height: 110px;
+    height: 300px;
     padding: 0px;
     background-color: #11526e00;
+    text-align: start;
 }
 #engagement .media p{
     font-size: 14px;

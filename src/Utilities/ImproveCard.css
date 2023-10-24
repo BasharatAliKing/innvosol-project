@@ -15,17 +15,15 @@
     transition: .7s;
 }
 #box h4{
-    color: #11526e;
+    color:var(--primaryblue);
     font-size: 22px;
     font-weight: 600;
 }
 #box p{
     width: 100%;
     text-align: start;
-    color: #11526e;
+    color: var(--primaryblue);
     font-size: 18px;
-    font-weight: 300;
-    line-height: 29px;
 }
 
 @media(max-width:576px){

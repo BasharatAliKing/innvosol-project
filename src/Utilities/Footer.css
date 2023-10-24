@@ -38,6 +38,9 @@
     color: #00bd4b;
     margin-right: 10px;
 }
+#footer i{
+    color: var(--primarygreen);
+}
 #footer ul li{
     padding:5px;
     font-size: 16px;

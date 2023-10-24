@@ -19,6 +19,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import ModalEngagement from '../Components/ModalEngagement';
+import { FaCheckDouble } from "react-icons/fa";
 import Form from '../Components/Form';
 import Footer from '../Layouts/Footer';
 
@@ -114,7 +115,7 @@ export default function Home() {
         <section id="business-grow">
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-5 first">
+                    <div className="col-lg-6 first">
                     <h1>We Can Help Different Types Of <span>Businesses Grow.</span></h1>
                     <MainPara mainpara="We create useful software for different businesses that can help them work better. Our software solutions are innovative and groundbreaking."/>
                      <div className="row">
@@ -131,20 +132,19 @@ export default function Home() {
                         </div>
                         <div className="col-md-6">
                              <ul className='navbar-nav'>
-                    <li className='nav-item'><BiCheck className='icon'/>Custom Software Development </li>
-                    <li className='nav-item'><BiCheck className='icon'/>E-commerce Solutions </li>
-                    <li className='nav-item'><BiCheck className='icon'/>Oil & Gas Solutions </li>
-                    <li className='nav-item'><BiCheck className='icon'/>Point of Sale Solutions </li>
-                    <li className='nav-item'><BiCheck className='icon'/>Shipping & Logistics </li>
-                    <li className='nav-item'><BiCheck className='icon'/>Enterprise Resource Planning </li>
-                    <li className='nav-item'><BiCheck className='icon'/>Real Estate & Housing IT Solutions </li>
+                    <li className='nav-item'><BiCheck className='icon'/>Warehouse Management Solution</li>
+                    <li className='nav-item'><BiCheck className='icon'/>Quality Assurance & Testing </li>
+                    <li className='nav-item'><BiCheck className='icon'/>App Support & Maintinance</li>
+                    <li className='nav-item'><BiCheck className='icon'/>Financial Services & Banking </li>
+                    <li className='nav-item'><BiCheck className='icon'/>Food & Resturants Solutions </li>
+                    <li className='nav-item'><BiCheck className='icon'/>Media & Entertainment </li>
                   </ul>
                         </div>
                      </div>
                     
                     
                     </div>
-                    <div id='pic' className="offset-lg-1 col-lg-6">
+                    <div id='pic' className=" offset-lg-1 col-lg-5">
                     <img className='upper-one' src={process.env.PUBLIC_URL+"./main-logo.svg"} alt="My-Pic" width="22%" />
              <img className='main-img' src={process.env.PUBLIC_URL+"./Busines-Growth.webp"} alt="My-Pic" width="100%" />
             <img className='upper-two' src={process.env.PUBLIC_URL+"./wifi-signal.svg"} alt="my-pic" width="15%" />
@@ -164,12 +164,12 @@ export default function Home() {
                 <p>We solve software problems by making customized solutions that work well and can be trusted. We also create new and different solutions.</p>
                 <h3>Included with...</h3>
                 <ul className='navbar-nav'>
-                  <li className='nav-item'> <i className='fa fa-check-square-o'></i>Competitive Edge </li>
-                  <li className='nav-item'> <i className='fa fa-check-square-o'></i>Customized Resolutions </li>
-                  <li className='nav-item'> <i className='fa fa-check-square-o'></i>Timely Dispatch </li>
-                  <li className='nav-item'> <i className='fa fa-check-square-o'></i>Improved Effectiveness </li>
-                  <li className='nav-item'> <i className='fa fa-check-square-o'></i>Client Protection </li>
-                  <li className='nav-item'> <i className='fa fa-check-square-o'></i>Sustainability and Confidentiality </li>
+                  <li className='nav-item'><FaCheckDouble className='improve-check'/>Competitive Edge </li>
+                  <li className='nav-item'><FaCheckDouble className='improve-check'/>Customized Resolutions </li>
+                  <li className='nav-item'><FaCheckDouble className='improve-check'/>Timely Dispatch </li>
+                  <li className='nav-item'><FaCheckDouble className='improve-check'/>Improved Effectiveness </li>
+                  <li className='nav-item'><FaCheckDouble className='improve-check'/>Client Protection </li>
+                  <li className='nav-item'><FaCheckDouble className='improve-check'/>Sustainability and Confidentiality </li>
                 </ul>
               </div>
               <div className="col-md-7">
@@ -252,22 +252,22 @@ export default function Home() {
           <MainPara mainpara="Testimonials from Satisfied Clients: Hear What They Have to Say About Our Services!"/>
           <Slider {...settings}>
             <div className="col-md-12 ">
-              <HomeSlider cls="shadow a" title="Syed Husnain R" subtitle="United States(UK)" para=" The right resource is critical to success. Asad is fast, responsive, and his technical skills are on point. His overall professionalism is first class. Highly recommended." />
+              <HomeSlider cls=" a" title="Syed Husnain R" subtitle="United States(UK)" para=" The right resource is critical to success. Asad is fast, responsive, and his technical skills are on point. His overall professionalism is first class. Highly recommended." />
             </div>
             <div className="col-md-12">
-              <HomeSlider cls="shadow b" title="Ahmed Z" subtitle="Germany" para="  Highly Recommended Freelancer! Thank you for your exceptional work on our WordPress website. Your efforts have not only met but exceeded our expectations, and I look forward to our continued collaboration." />
+              <HomeSlider cls=" b" title="Ahmed Z" subtitle="Germany" para="  Highly Recommended Freelancer! Thank you for your exceptional work on our WordPress website. Your efforts have not only met but exceeded our expectations, and I look forward to our continued collaboration." />
             </div>
             <div className="col-md-12">
-              <HomeSlider cls="shadow c" title="Hatim Q" subtitle="United Kingdom(UK)" para="  Great job on the landing page, followed instructions accurately with great output." />
+              <HomeSlider cls=" c" title="Hatim Q" subtitle="United Kingdom(UK)" para="  Great job on the landing page, followed instructions accurately with great output." />
             </div>
             <div className="col-md-12 ">
-              <HomeSlider cls="shadow a" title="Syed Husnain R" subtitle="United States(UK)" para=" The right resource is critical to success. Asad is fast, responsive, and his technical skills are on point. His overall professionalism is first class. Highly recommended." />
+              <HomeSlider cls=" a" title="Syed Husnain R" subtitle="United States(UK)" para=" The right resource is critical to success. Asad is fast, responsive, and his technical skills are on point. His overall professionalism is first class. Highly recommended." />
             </div>
             <div className="col-md-12">
-              <HomeSlider cls="shadow b" title="Ahmed Z" subtitle="Germany" para="  Highly Recommended Freelancer! Thank you for your exceptional work on our WordPress website. Your efforts have not only met but exceeded our expectations, and I look forward to our continued collaboration." />
+              <HomeSlider cls=" b" title="Ahmed Z" subtitle="Germany" para="  Highly Recommended Freelancer! Thank you for your exceptional work on our WordPress website. Your efforts have not only met but exceeded our expectations, and I look forward to our continued collaboration." />
             </div>
             <div className="col-md-12">
-              <HomeSlider cls="shadow c" title="Hatim Q" subtitle="United Kingdom(UK)" para="  Great job on the landing page, followed instructions accurately with great output." />
+              <HomeSlider cls=" c" title="Hatim Q" subtitle="United Kingdom(UK)" para="  Great job on the landing page, followed instructions accurately with great output." />
             </div>
             {/* <div className="col-md-12 ">
               <HomeSlider cls="shadow a" title="Syed Husnain R" subtitle="United States(UK)" para=" The right resource is critical to success. Asad is fast, responsive, and his technical skills are on point. His overall professionalism is first class. Highly recommended." />
@@ -289,10 +289,16 @@ export default function Home() {
                     <div className="col-lg-6 second">
             <MainHeading mainheading="Engagement Models"/>
             <MainPara mainpara="We solve your biggest business pains and help you succeed.Here is how we can work together"/>
-            <ModalEngagement clas="one"  icon={<HiUserGroup/>} title="Staff/Resource Augmentation" para="Our approach to staff augmentation aims to assist organizations in securing the necessary expertise for their projects." />
-            <ModalEngagement clas="two"  icon={<FaProductHunt/>} title="Produce Development" para="Our project-based model ensures end-to-end product development, led by a team of expert software engineering consultants." />
-            <ModalEngagement  clas="three" icon={<FaRegLightbulb/>} title="Dadicated Development Team" para="Highly skilled developers delivering top-notch development services with a focus on quality." />
-          </div>
+            <div className="row">
+              <div className="col-md-6"> <ModalEngagement clas="one"  icon={<HiUserGroup/>} count="01" title="Staff/Resource Augmentation" para="Our approach to staff augmentation aims to assist organizations in securing the necessary expertise for their projects." />
+           </div>
+           <div className="col-md-6">
+             <ModalEngagement clas="two"  icon={<FaProductHunt/>} count="02" title="Produce Development" para="Our project-based model ensures end-to-end product development, led by a team of expert software engineering consultants." />
+           </div>
+           <div className="col-md-6">  <ModalEngagement  clas="three" icon={<FaRegLightbulb/>} count="03" title="Dadicated Development Team" para="Highly skilled developers delivering top-notch development services with a focus on quality." />
+         </div>
+            </div>
+           </div>
                 </div>
             </div>
         </section>
