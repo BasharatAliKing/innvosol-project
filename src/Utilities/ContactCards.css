@@ -23,15 +23,15 @@
     
 }
 .card h2{
-    font-weight: 700;
+    font-weight: 600;
 }
 .card p{
-    font-size: 19px;
+    font-size: 22px;
 }
 
 .card .btn{
     width: 100%;
-    font-weight: 700;
+    font-weight: 600;
     letter-spacing: 1px;
     background-color:var(--primaryblue);
 }
