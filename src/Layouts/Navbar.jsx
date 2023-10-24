@@ -15,7 +15,7 @@ export default function Navbar() {
   // }
   const showButton=()=>{
     console.log("Scrolled...");
-    if(window.scrollY>= 590){
+    if(window.scrollY > 590){
       setNavbar(false)
     }
     else{
